@@ -1,0 +1,252 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.company-name{
+    width: 25%;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.header-content p{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    letter-spacing: 8px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+.heading{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 140px;
+}
+
+.heading h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.heading p{
+    color: white;
+}
+  .hero-section {
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .blog-section {
+    display: flex;
+  }
+  
+  .blog-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .blog-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .blog-card a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .blog-right {
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .categories-card,
+  .recent-posts,
+  .tags {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .categories-card h3,
+  .recent-posts h3,
+  .tags h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .categories-card ul,
+  .recent-posts ul,
+  .tags ul {
+    list-style: none;
+  }
+  
+  .categories-card ul li,
+  .recent-posts ul li,
+  .tags ul li {
+    margin-bottom: 5px;
+  }
+  
+  .categories-card ul li a,
+  .recent-posts ul li a,
+  .tags ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+
+  /* Default styles */
+
+/* ... (previously defined styles) ... */
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .hero-section {
+      height: auto;
+      padding: 50px 0;
+    }
+    
+    .hero-content h1 {
+      font-size: 24px;
+    }
+    
+    .hero-content h2 {
+      font-size: 16px;
+    }
+    
+    .blog-section {
+      flex-direction: column;
+    }
+    
+    .blog-left,
+    .blog-right {
+      width: 100%;
+    }
+    
+    .blog-card {
+      margin-bottom: 30px;
+    }
+    
+    .blog-right {
+      padding: 20px 0;
+    }
+    
+    .categories-card,
+    .recent-posts,
+    .tags {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .blog-card h3 {
+      font-size: 16px;
+    }
+    
+    .blog-card p {
+      font-size: 12px;
+    }
+    
+    .blog-card a {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+    
+    .categories-card h3,
+    .recent-posts h3,
+    .tags h3 {
+      font-size: 14px;
+    }
+    
+    .categories-card ul li a,
+    .recent-posts ul li a,
+    .tags ul li a {
+      font-size: 12px;
+    }
+    
+    .footer p {
+      font-size: 12px;
+    }
+  }
+
+  body img{
+    width: 400px;
+  }

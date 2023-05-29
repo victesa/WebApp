@@ -1,0 +1,306 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.company-name{
+    width: 25%;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.header-content p{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    letter-spacing: 8px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+.heading{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 140px;
+}
+
+.heading h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.heading p{
+    color: white;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("../images/powerwall2.avif");
+    background-size: cover;
+}
+
+.hero button{
+    background-color: transparent;
+    padding-top :10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    position: relative;
+    top: 250px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.hero2{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-div{
+    padding-left: 60px;
+    width: 24%;
+    justify-content: flex-start;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-div{
+    width: 76%;
+    height: 100%;
+    background-image: url("../images/powerwall3.png");
+    background-size: cover;
+}
+
+.left-div h4{
+    position: relative;
+    top: 60px;
+    font-size: 1.5rem;
+}
+.left-div h1{
+    position: relative;
+    font-size: 2rem;
+}
+
+.left-div p{
+    margin-right: 60px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.left-div button{
+    margin-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    font-size: 1.1rem;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+}
+
+.hero3{
+    height: 100vh;
+    background-image: url("../images/solarroof.avif");
+    background-size: cover;
+}
+
+.hero3 button{
+    background-color: transparent;
+    padding-top :10px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+    position: relative;
+    top: 250px;
+}
+
+.hero4{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-div-hero4{
+    padding-left: 60px;
+    width: 24%;
+    justify-content: flex-start;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-div-hero4{
+    width: 76%;
+    height: 100%;
+    background-image: url("../images/powerwall3.png");
+    background-size: cover;
+}
+
+.left-div-hero4 h4{
+    position: relative;
+    top: 60px;
+    font-size: 1.5rem;
+}
+.left-div-hero4 h1{
+    position: relative;
+    font-size: 2rem;
+}
+
+.left-div-hero4 p{
+    margin-right: 60px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.left-div-hero4 button{
+    margin-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    font-size: 1.1rem;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+}
+
+.hero5-div {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .hero5-div-left {
+    width: 50%;
+    background-image: url("../images/spec.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .hero5-div-right {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .hdr-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .hdr-left,
+  .hdr-right {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .hdr-left p,
+  .hdr-right p {
+    margin-bottom: 10px;
+  }
+
+  .hero6{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero6 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .order{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .schedule{
+    position: relative;
+    top: 20px;
+    background-color: gray;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .a-blog{
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    top: 30px;
+  }
+  
+  
+  

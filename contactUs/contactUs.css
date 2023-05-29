@@ -1,0 +1,134 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.company-name{
+    width: 25%;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.header-content p{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    letter-spacing: 8px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.heading{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 140px;
+}
+
+.heading h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.heading p{
+    color: white;
+}
+
+body{
+    padding: 0;
+    margin: 0;;
+}
+
+.img-hero{
+    background-image: url("../images/Solar-Roof-Design-Desktop-Global.avif");
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+}
+
+.div-title{
+    margin-left: 140px;
+    margin-right: 100px;
+    font-size: 1.3rem;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-details{
+    margin-left: 140px;
+    margin-right: 140px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-details{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.left-details input{
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .details button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
